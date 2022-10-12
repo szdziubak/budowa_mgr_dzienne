@@ -20,7 +20,11 @@ create view pracownicy (nazwisko,pensja_roczna,data_zatr) --nazwy kolumn w persp
 as select last_name,salary*12,hire_date
 from employees where salary<10000;
 
-describe view  pracownicy;
+select * from dict where lower(table_name) like '%view%';
+
+select * from user_views;
+
+describe pracownicy;
 
 create or replace view pracownicy (nazwisko,pensja_roczna,data_zatr) --nazwy kolumn w perspektywie
 as select last_name,salary*12,hire_date
