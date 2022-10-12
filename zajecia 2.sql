@@ -65,9 +65,6 @@ ORDER BY
 SELECT department_id, last_name FROM employees WHERE department_id <= 50 ORDER BY department_id, last_name;
 SELECT department_id, last_name FROM employees WHERE department_id <= 50 ORDER BY department_id DESC, last_name;
 
---Funkcje
---jednowierszowe - jeden wiersz na wejściu, jeden na wyjściu np. formatowanie tekstu
---wielowierszowe - wiele wierszy na wejściu, jeden na wyjściu np. średnia
 
 Do domu:
 SQL-where (3 osoby: 4+4+3)
