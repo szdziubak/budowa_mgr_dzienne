@@ -1,3 +1,7 @@
+--Funkcje
+--jednowierszowe - jeden wiersz na wejściu, jeden na wyjściu np. formatowanie tekstu
+--wielowierszowe - wiele wierszy na wejściu, jeden na wyjściu np. średnia
+
 --Dual table - tabela do wykonywania obliczeń
 select 2+3 from dual;
 SELECT (319/29) + 12 FROM DUAL;
