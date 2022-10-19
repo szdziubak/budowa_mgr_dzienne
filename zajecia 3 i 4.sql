@@ -45,15 +45,13 @@ select ROUND(45.926, -1) from dual; --zaokraglenie do -1 miejsca
 select TRUNC (45.926, 2) from dual --obcina nie zaokrągla
 select TRUNC (45.926) from dual;
 select mod(3,2) from dual; --operator modulo, reszta z dzielenia
-SELECT country_name, MOD(airports,2) AS "Mod Demo" FROM wf_countries;
-ABS(-1)
-CEIL(1.222) --2
-FLOOR(1.222)m --1
-GREATEST(1,2,3,4) --4
-LOWEST(1,2,3,4) --1
-POWER(2,3) --8
-SQRT(5) --25, 5^2
-
+SELECT ABS(-1) from dual;
+SELECT CEIL(1.222) from dual; --2
+SELECT FLOOR(1.222) from dual; --1
+SELECT GREATEST(1,2,3,4) from dual; --4
+SELECT LEAST(1,2,3,4) from dual; --1
+SELECT POWER(2,3) from dual; --8
+SELECT SQRT(5) from dual; --2,236, 5^(1/2)
 
 --Funkcje dat przetwarzają daty i czas
 SELECT SYSDATE FROM dual; --dzisiejsza data
