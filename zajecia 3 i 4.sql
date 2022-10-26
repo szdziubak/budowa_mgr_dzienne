@@ -119,8 +119,8 @@ select NVL(NULL, 'tekst') as funkcja_nvl from dual
 SELECT last_name, NVL(commission_pct, 0) FROM employees WHERE department_id IN(80,90);
 select employee_id, nvl(bonus, 0) from employees
 --NVL2(wyrażenie, które może mieć NULL, jeżeli ma null to czym go zastąpimy, jeżeli nie jest NULL to czym je zastąpimy)
-select NVL2(NULL, 'byl null', 'nie bylo nulla') as funkcja_nvl from dual
-select NVL2(1, 'byl null', 'nie bylo nulla') as funkcja_nvl from dual
+select NVL2(NULL, 'nie bylo nulla',  'byl null') as funkcja_nvl from dual
+select NVL2(1, 'nie bylo nulla', 'byl null') as funkcja_nvl from dual
 SELECT last_name, salary, NVL2(commission_pct, salary + (salary * commission_pct), salary) AS income
 FROM employees WHERE department_id IN(80,90); 
 --COALESCE(wartosc1, wartosc2, wartosc3...)-jeeli wartosc 1 jest null to wartosc2, jeeli wartosc 2 jest null to wartosc3 itd
