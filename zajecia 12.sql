@@ -1,4 +1,4 @@
-/*warunki integralności, operatory na zbiorach – union, union all, minus, intersect*/
+/*operatory na zbiorach – union, union all, minus, intersect*/
 
 --prosty przykład operacji na zbiorach
 select employee_id, job_id, department_id  from employees
