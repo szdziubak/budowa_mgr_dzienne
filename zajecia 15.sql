@@ -56,9 +56,8 @@ time_scope interval day to second );
 insert into emp_interval2
 values (1000, INTERVAL '3' DAY);
 
-
 insert into emp_interval2
-values (1000, INTERVAL '3' DAY);
+values (1000, INTERVAL '3 2:25' DAY TO MINUTE);
 
 select * from emp_interval1
 select * from emp_interval2
