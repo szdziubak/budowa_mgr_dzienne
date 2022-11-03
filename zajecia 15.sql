@@ -1,4 +1,4 @@
-/*RegEX, strefy czasowe*/
+/*RegEXP, strefy czasowe*/
 
 --Wyrażenia regularne - RegEX
 /*
