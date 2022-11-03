@@ -17,7 +17,7 @@ CREATE TABLE employees_sa_rep (
     date*/
 
 
-/*więzy:
+/*więzy (warunki integralności):
     CHECK - wartość w kolumnie musi spełniać określony warunek,
     NOT NULL - wartość w kolumnie musi być niepusta (not NULL),
     PRIMARY KEY - klucz główny tabeli, składający się z jednej lub więcej kolumn,
