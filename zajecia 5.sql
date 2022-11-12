@@ -4,7 +4,7 @@
 
 --0. Where
 select * from departments, locations 
-where departments.department_id = locations.location_id;
+where departments.location_id = locations.location_id;
 
 --1. Natural join - łączy tabele po takich samych nazwach kolumn
 SELECT first_name, last_name, job_id, job_title
