@@ -120,3 +120,7 @@ group by department_id, GROUPING SETS(department_id, (department_id, job_id), ()
 --możemy odfiltorować zduplikowane agregacje
 select department_id, job_id, avg(salary) from employees
 group by department_id, GROUPING SETS(department_id, (department_id, job_id), ()) having GROUP_ID() = 0
+
+
+Do domu:
+rollup (2 osoby: 3+3)
