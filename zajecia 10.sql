@@ -94,3 +94,6 @@ INSERT INTO test_with_identity (id) VALUES (3);
 INSERT INTO test_with_identity (id) VALUES (4);
 
 select * from test_with_identity
+
+Do domu:
+perspektywy (2 osoby: 4+4)
