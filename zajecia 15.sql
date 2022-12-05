@@ -65,3 +65,6 @@ select * from emp_interval2
 drop table emp_interval1
 drop table emp_interval2
 drop table emp_zone
+
+Do domu:
+regular (1 osoba)
