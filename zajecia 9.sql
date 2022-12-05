@@ -104,3 +104,6 @@ select * from all_objects
 
 select * from dict where lower(table_name) like '%sequence%'
 select * from all_sequences
+
+Do domu:
+5. DML-DDL (3 osoby: (4+4)+6(1-7))
