@@ -28,3 +28,6 @@ select first_name, last_name, department_name, hire_date from employees inner jo
 select * from employees
 UNION
 select * from job_history
+
+Do domu:
+union2 (2 osoby: 3+3)
