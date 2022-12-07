@@ -12,7 +12,8 @@ CREATE TABLE employees_sa_rep (
 
 /*typy danych:
     varchar2(n)
-    integer
+    integer 
+    number
     char
     date*/
 
