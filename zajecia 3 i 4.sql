@@ -118,7 +118,7 @@ select NULL *1 from dual;
 select NVL(NULL, 'tekst') as funkcja_nvl from dual
 SELECT last_name, NVL(commission_pct, 0) FROM employees WHERE department_id IN(80,90);
 select employee_id, nvl(bonus, 0) from employees
---NVL2(wyrażenie, które może mieć NULL, jeżeli ma null to czym go zastąpimy, jeżeli nie jest NULL to czym je zastąpimy)
+--NVL2(wyrażenie, które może mieć NULL, jeżeli nie jest NULL to czym je zastąpimy, jeżeli ma null to czym go zastąpimy)
 select NVL2(NULL, 'nie bylo nulla',  'byl null') as funkcja_nvl from dual
 select NVL2(1, 'nie bylo nulla', 'byl null') as funkcja_nvl from dual
 SELECT last_name, salary, NVL2(commission_pct, salary + (salary * commission_pct), salary) AS income
