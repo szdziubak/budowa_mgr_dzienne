@@ -1,0 +1,26 @@
+1. Utwórz raport vw_countries_report z użyciem perspektywy w którym:
+- zawrzesz informacje o mieście
+- policzysz ilu pracowników pracuje w danym mieście
+- policzysz średnią pensje dla każdego z miast
+- wykluczysz te miasta, w których pracuje mniej niż 2 pracowników
+- posortujesz miasta alfabetycznie
+
+2. Z użyciem data distionary wyświetl informację o utworzonym widoku.
+
+3. Usuń widok.
+
+4. Utwórz synonim nałożony na departamenty.
+
+5. Usuń ten synonim.
+
+6. Udziel osobie obok uprawnienia do tworzenia synonimów w twoim schemacie 
+
+7. Utwórz sekwencje pokazującą, kiedy mamy rok przestępny (co 4 lata od jakiejś daty na początku XXI wieku)
+
+8. Sprawdź, pierwszą wartość roku przestępnego i kolejne aż do następnego w stosunku do dzisiejszej daty
+
+9. Utwórz tabelę emp_name przechowującą informacje o nazwisku pracownika. Dodaj klucz pierwotny jako kolejny numer począwszy od 1 (użyj sekwencji).
+
+10. Dodaj kilka wierszy do tabeli emp_name z wykorzystaniem sekwencji.
+
+11. Usuń sekwencje do lat przestępnych i tabelę emp_name.
