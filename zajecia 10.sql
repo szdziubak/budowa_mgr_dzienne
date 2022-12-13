@@ -64,7 +64,7 @@ MINVALUE 10
 MAXVALUE 100
 
 select seq_2.nextval from dual;
-select seq2.currval, seq_2.nextval from dual;
+select seq_2.currval, seq_2.nextval from dual;
 
 --użycie sekwencji w tabeli
 CREATE SEQUENCE s_default_value_for_column;
