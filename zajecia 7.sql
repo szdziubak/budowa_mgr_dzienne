@@ -4,6 +4,9 @@ CREATE TABLE copy_employees
 AS (SELECT * FROM employees); 
 CREATE TABLE copy_departments
 AS (SELECT * FROM departments); 
+CREATE TABLE sales_reps
+AS (SELECT * FROM departments where 1 = 0); --tworzy pust tabelę ale zachowuje strukture
+
 
 select * from copy_employees;
 select * from copy_departments;
@@ -92,3 +95,7 @@ WHERE e.manager_id IN
 FROM employees d
 HAVING count (d.department_id) < 2
 GROUP BY d.manager_id);
+
+drop table copy_employees;
+drop table copy_departments;
+drop table sales_reps;
