@@ -17,7 +17,7 @@ pensje_dep_10_20 as
 (select salary from employees where department_id IN (10,20)),
 min_salary as 
 (select department_id, MIN(salary) from employees group by department_id
-HAVING MIN(salary) < (select * from pensje_dep_10_20))
+HAVING MIN(salary) < ANY(select * from pensje_dep_10_20))
 select * from min_salary
 
 
