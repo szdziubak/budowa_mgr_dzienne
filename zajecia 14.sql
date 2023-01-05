@@ -109,7 +109,7 @@ from employees
 group by to_char(hire_date, 'yyyy')
 order by to_char(hire_date, 'yyyy')
 
-Do domu:
+Do domu (nie będziemy tego sprawdzać):
 insert-multi (1 osoba)
 indeks (2 osoby: 5+4)
 
