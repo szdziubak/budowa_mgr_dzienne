@@ -18,7 +18,7 @@ Metaznaki z języka Perl:
 select hire_date from employees where REGEXP_LIKE(to_char(hire_date, 'yyyy'), '^19[89][1-3]$') --19 & 8 lub 9 & 1 lub 2 lub 3
 select REGEXP_REPLACE(to_char(hire_date, 'yyyy'), '^19[89][1-3]$', '2000')  from employees --zamieniamy na 2000
 select job_id, REGEXP_INSTR(job_id, 'A', 2) from employees --zwraca pozycję drugiego wystąpienia 'A'
-select street_address, REGEXP_COUNT(street_address, 'a', 7, 'i') from locations --od 7 pozycji zlicza litery 'a' i 'A'
+select street_address, REGEXP_COUNT(street_address, 'a', 7, 'i') from locations --od 7 pozycji zlicza litery 'a' i 'A', 'i' oznacza case insensitive
 
 
 --strefy czasowe
