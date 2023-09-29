@@ -1,4 +1,4 @@
-# sql_zima_2022
+# Budowa i eksploatacja baz danych
 Materiały z SQL
 
 Zajęcia 1 - podstawy SQL, select, where, between, like, NULL <br>
